@@ -1,0 +1,152 @@
+
+body{
+    background-color: hsl(218, 28%, 13%);
+    
+    
+    
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+nav{
+    padding-top: 15px;
+    background-color: hsl(217, 28%, 15%);
+}
+a.nav-item{
+    float: right;
+    text-decoration: none;
+    margin-right: 5%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.intro{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 370px;
+
+    
+}
+.intro button{
+    border-radius: 22px;
+    padding: 12px 0;
+    width: 17%;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+}
+
+.mid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 4% 15%;
+    
+    
+   
+}
+.mid div{
+  
+   margin-top: 7%;
+   text-align: center;
+   color: white;
+}
+
+
+.mid-low{
+    margin: 0 7%;
+}
+.mid-low a{
+    color: hsl(176, 68%, 64%);
+    text-underline-position: under;
+}
+#two{
+    padding-left: 55%;
+    margin-bottom: 20%;
+    padding-top: 8%;
+}
+
+.quotes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 12%;
+    position: relative;
+}
+.quotes .qp{
+    background-color: hsl(219, 30%, 18%);
+    font-size: 13px;
+    margin-right: 7%;
+    padding: 2px 17px;
+    border-radius: 2px;
+    
+}
+.author p{
+   padding-left: 25%;
+   font-weight: 700;
+   font-size: 12px;
+   padding-bottom: 15px;
+}
+.quotes img{
+    width: 20%;
+    height: 20%;
+    border-radius: 30px;
+    
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    width: 100%;
+    position: relative;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 32% 20% 16% 16% 16%;
+    margin: 16% 10% 5%;
+    padding-top: 7%;
+    
+    
+    
+    
+}
+
+.foot div{    
+    margin-right: 2px;
+    z-index: 2;
+}
+
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.sign{
+    text-align: center;
+   
+   z-index: 2;
+   background-color: hsl(219, 30%, 18%);
+   padding: 10px 30px;
+   margin-left: 25%;
+  margin-top: 5%;
+   box-shadow: black;
+   position: absolute;
+}
+.sign input,button{
+    padding: 10px;
+    border-radius: 17px;
+    border: none;
+}
+.sign input{
+    width: 50%;
+}
+.sign button{
+    margin-left: 2%;
+    color: white;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
